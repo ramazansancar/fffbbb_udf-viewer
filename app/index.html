@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>
-		Udf Göster
-	</title>
+	<style type="text/css">
+	
+	.filechoice label{
+		display: block;
+		font-size: 30px;
+		line-height: 50px;
+		border: 1px solid;
+		margin: auto;
+		text-align: center;
+		background: black;
+		color: white;
+	}
+	.filechoice label:active{
+
+		background: #333;
+		line-height: 60px;
+		font-size: 32px;
+	}
+</style>
+<title>
+	Udf Göster
+</title>
 </head>
 <body>
 
+	<div class="filechoice">
+		<label >Dosya Seçimi
+		<input id="file-input" style="visibility:hidden;" type="file">
+		</label>
+	</div>
+
+	<hr/>
+
+	<div id="content-div"></div>
+
+	<script type="text/javascript" src="/bower_components/zip-js/WebContent/zip.js"></script>
+	<script type="text/javascript" src="/bower_components/zip-js/WebContent/zip-ext.js"></script>
+
+	<script type="text/javascript" src="/app/js/index.js"></script>
+
 </body>
+
 </html>
