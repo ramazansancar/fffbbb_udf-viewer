@@ -1,0 +1,21 @@
+{
+  "name": "udf-viewer",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "ferhatbahar@gmail.com"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/fffbbb/udf-viewer",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "zip-js": "^1.0.0"
+  }
+}
