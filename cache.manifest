@@ -1,0 +1,10 @@
+CACHE:
+/index.html
+/index.js
+/bower_components/zip-js/WebContent/zip.js
+/bower_components/zip-js/WebContent/zip-ext.js
+/bower_components/zip-js/WebContent/z-worker.js
+/bower_components/zip-js/WebContent/inflate.js
+
+NETWORK:
+*
