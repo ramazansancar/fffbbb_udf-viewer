@@ -1,0 +1,15 @@
+{
+  "name": "zip-js",
+  "homepage": "http://gildas-lormeau.github.com/zip.js/",
+  "authors": [
+    "gildas-lormeau"
+  ],
+  "description": "A bower compatible fork for gildas-lormeau's zip.js library",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "zip",
+    "zip.js"
+  ],
+  "license": "BSD"
+}

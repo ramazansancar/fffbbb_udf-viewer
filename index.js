@@ -1,7 +1,7 @@
 
 
 (function(obj) {
-	zip.workerScriptsPath = "/bower_components/zip-js/WebContent/";
+	zip.workerScriptsPath = "bower_components/zip-js/WebContent/";
 
 	function onerror(message) {
 		console.log(message);
